@@ -5,102 +5,393 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Service - WordMaster</title>
     <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.8;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            color: #333;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.7;
+            color: #2d3748;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e3edf7 100%);
+            padding: 20px;
         }
-        h1 { color: #1A1A2E; font-size: 36px; margin-bottom: 10px; }
-        h2 { color: #4B7BFF; margin-top: 40px; }
-        h3 { color: #666; margin-top: 20px; }
-        a { color: #4B7BFF; text-decoration: none; }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            padding: 60px;
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #4B7BFF;
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 30px;
+            transition: transform 0.2s;
+        }
+        .back-link:hover { transform: translateX(-5px); }
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #e2e8f0;
+        }
+        h1 {
+            font-size: 42px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #4B7BFF, #7C56FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .updated {
+            color: #718096;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        h2 {
+            color: #1a202c;
+            font-size: 28px;
+            font-weight: 700;
+            margin: 50px 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #4B7BFF;
+        }
+        h3 {
+            color: #2d3748;
+            font-size: 20px;
+            font-weight: 600;
+            margin: 30px 0 15px 0;
+        }
+        p {
+            margin: 15px 0;
+            color: #4a5568;
+            font-size: 16px;
+        }
+        ul, ol {
+            margin: 20px 0;
+            padding-left: 30px;
+        }
+        li {
+            margin: 12px 0;
+            color: #4a5568;
+            font-size: 16px;
+        }
+        strong { color: #2d3748; font-weight: 600; }
+        a { color: #4B7BFF; text-decoration: none; font-weight: 600; }
         a:hover { text-decoration: underline; }
-        .header { text-align: center; margin-bottom: 60px; }
-        .updated { color: #888; font-style: italic; }
-        .back-link { display: inline-block; margin-bottom: 20px; }
+        .info-box {
+            background: #ebf4ff;
+            border-left: 4px solid #4B7BFF;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+        .warning-box {
+            background: #fef5e7;
+            border-left: 4px solid #f59e0b;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 2px solid #e2e8f0;
+            color: #718096;
+        }
+        @media (max-width: 768px) {
+            .container { padding: 30px 20px; }
+            h1 { font-size: 32px; }
+            h2 { font-size: 24px; }
+        }
     </style>
 </head>
 <body>
-    <a href="index.html" class="back-link">← Back to Home</a>
-    
-    <div class="header">
-        <h1>Terms of Service</h1>
-        <p class="updated">Last updated: March 21, 2026</p>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Home</a>
+
+        <div class="header">
+            <h1>Terms of Service</h1>
+            <p class="updated">Effective Date: March 21, 2026 • Last Updated: March 21, 2026</p>
+        </div>
+
+        <p>Welcome to <strong>WordMaster</strong>. These Terms of Service ("Terms") govern your access to and use of the WordMaster mobile application (the "App"). By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree, please do not use the App.</p>
+
+        <div class="info-box">
+            <strong>Important:</strong> These Terms constitute a legally binding agreement between you and WordMaster. Please read them carefully before using the App.
+        </div>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>By creating an account or using WordMaster, you:</p>
+        <ul>
+            <li>Confirm that you are at least <strong>13 years old</strong> (or the minimum age required in your country)</li>
+            <li>Agree to comply with these Terms and our <a href="privacy.html">Privacy Policy</a></li>
+            <li>Represent that all information you provide is accurate and complete</li>
+            <li>Acknowledge that we may update these Terms from time to time</li>
+        </ul>
+        <p><strong>If you are under 18,</strong> you confirm that you have obtained parental or guardian consent to use the App.</p>
+
+        <h2>2. Description of Service</h2>
+        <p>WordMaster is an English vocabulary learning platform that offers:</p>
+        <ul>
+            <li><strong>Vocabulary Library:</strong> 5,000+ words across 20+ categories with images, pronunciations, and translations in 19 languages</li>
+            <li><strong>Learning Modes:</strong>
+                <ul>
+                    <li>Flashcard Learning</li>
+                    <li>Visual Quiz, Listening Test, Spelling Bee, Multiple Choice</li>
+                    <li>Grammar Puzzle, True/False Challenge, Grid Match</li>
+                    <li>AI Roleplay, AI Story Fill (template-based, no live AI)</li>
+                </ul>
+            </li>
+            <li><strong>Progress Tracking:</strong> XP, streaks, badges, skill scores, activity calendar</li>
+            <li><strong>Gamification:</strong> Leagues (Unranked to Diamond), global leaderboards, achievements</li>
+            <li><strong>Multi-Language Support:</strong> Separate progress tracking for multiple target languages</li>
+            <li><strong>Premium Features:</strong> (Future) Ad-free experience, exclusive content, advanced analytics</li>
+        </ul>
+
+        <h2>3. User Accounts</h2>
+
+        <h3>3.1 Account Creation</h3>
+        <ul>
+            <li><strong>Registration:</strong> You may create an account using email/password or Google Sign-In</li>
+            <li><strong>Accuracy:</strong> You must provide accurate, current, and complete information</li>
+            <li><strong>Security:</strong> You are responsible for maintaining the confidentiality of your password and account</li>
+            <li><strong>One Account Per User:</strong> Do not create multiple accounts to manipulate leaderboards or abuse features</li>
+        </ul>
+
+        <h3>3.2 Account Responsibilities</h3>
+        <p>You are responsible for:</p>
+        <ul>
+            <li>All activities that occur under your account</li>
+            <li>Notifying us immediately of any unauthorized access or security breach</li>
+            <li>Not sharing your account credentials with others</li>
+        </ul>
+        <p><strong>We are not liable for any loss or damage arising from your failure to protect your account.</strong></p>
+
+        <h3>3.3 Account Deletion</h3>
+        <p>You may delete your account at any time through Settings → About → Delete Account. Upon deletion:</p>
+        <ul>
+            <li>All personal data will be permanently removed within 30 days</li>
+            <li>Your leaderboard ranking and progress will be erased</li>
+            <li>Premium subscriptions will be canceled (no refunds for unused time)</li>
+        </ul>
+
+        <h2>4. Acceptable Use Policy</h2>
+        <p>You agree <strong>NOT</strong> to:</p>
+        <ul>
+            <li><strong>Violate Laws:</strong> Use the App for any illegal or unauthorized purpose</li>
+            <li><strong>Harass Others:</strong> Engage in abusive, offensive, or discriminatory behavior toward other users</li>
+            <li><strong>Cheat or Manipulate:</strong>
+                <ul>
+                    <li>Use bots, scripts, or automated tools to inflate XP or leaderboard rankings</li>
+                    <li>Share or purchase accounts</li>
+                    <li>Exploit bugs or glitches for unfair advantage</li>
+                </ul>
+            </li>
+            <li><strong>Reverse Engineer:</strong> Decompile, disassemble, or attempt to extract the App's source code</li>
+            <li><strong>Upload Malicious Content:</strong> Transmit viruses, malware, or harmful code</li>
+            <li><strong>Impersonate:</strong> Pretend to be another user, WordMaster staff, or any third party</li>
+            <li><strong>Scrape Data:</strong> Use automated tools to collect user data or content from the App</li>
+        </ul>
+        <p><strong>Violation of this policy may result in account suspension or termination without refund.</strong></p>
+
+        <h2>5. Intellectual Property</h2>
+
+        <h3>5.1 Ownership</h3>
+        <p>All content, features, and functionality of the App (including but not limited to text, images, audio, code, design, and trademarks) are owned by WordMaster or our licensors and are protected by:</p>
+        <ul>
+            <li>Copyright laws</li>
+            <li>Trademark laws</li>
+            <li>Other intellectual property rights</li>
+        </ul>
+
+        <h3>5.2 Limited License</h3>
+        <p>We grant you a limited, non-exclusive, non-transferable, revocable license to:</p>
+        <ul>
+            <li>Download and install the App on your personal device(s)</li>
+            <li>Use the App for personal, non-commercial purposes</li>
+        </ul>
+        <p><strong>You may NOT:</strong></p>
+        <ul>
+            <li>Copy, modify, distribute, sell, or lease any part of the App</li>
+            <li>Create derivative works based on the App</li>
+            <li>Remove or alter any copyright, trademark, or proprietary notices</li>
+        </ul>
+
+        <h3>5.3 User-Generated Content</h3>
+        <p>If you submit content (e.g., profile photos, feedback), you grant us a worldwide, royalty-free, perpetual license to use, reproduce, and display such content for the purpose of operating and improving the App.</p>
+
+        <h2>6. Premium Subscriptions</h2>
+
+        <h3>6.1 Subscription Plans</h3>
+        <p>WordMaster may offer premium subscription plans with benefits such as:</p>
+        <ul>
+            <li>Ad-free experience</li>
+            <li>Exclusive vocabulary sets and learning modes</li>
+            <li>Advanced progress analytics</li>
+            <li>Priority customer support</li>
+        </ul>
+
+        <h3>6.2 Pricing and Billing</h3>
+        <ul>
+            <li><strong>Payment:</strong> Subscriptions are billed automatically through your Apple App Store or Google Play Store account</li>
+            <li><strong>Auto-Renewal:</strong> Subscriptions automatically renew at the end of each billing cycle unless canceled</li>
+            <li><strong>Price Changes:</strong> We reserve the right to change subscription prices with 30 days' notice</li>
+            <li><strong>Taxes:</strong> Prices exclude applicable taxes (VAT, sales tax, etc.), which will be added at checkout</li>
+        </ul>
+
+        <h3>6.3 Free Trials</h3>
+        <ul>
+            <li>Free trials (if offered) are available to new subscribers only</li>
+            <li>Your payment method will be charged automatically when the trial ends unless you cancel</li>
+            <li>You may cancel anytime during the trial without being charged</li>
+        </ul>
+
+        <h3>6.4 Cancellation and Refunds</h3>
+        <ul>
+            <li><strong>Cancel Anytime:</strong> You may cancel your subscription through your App Store account settings</li>
+            <li><strong>No Partial Refunds:</strong> Cancellations take effect at the end of the current billing cycle (no refunds for unused time)</li>
+            <li><strong>No Refunds Policy:</strong> All sales are final and non-refundable, except as required by law or at our sole discretion</li>
+        </ul>
+        <p><em>For App Store refunds, contact Apple or Google directly, as we do not process payments.</em></p>
+
+        <h3>6.5 Subscription Management</h3>
+        <p>Subscriptions are managed through <strong>RevenueCat</strong>. You can view, modify, or cancel your subscription in:</p>
+        <ul>
+            <li><strong>iOS:</strong> Settings → [Your Name] → Subscriptions</li>
+            <li><strong>Android:</strong> Google Play Store → Menu → Subscriptions</li>
+        </ul>
+
+        <h2>7. Content and Disclaimers</h2>
+
+        <h3>7.1 Educational Content Disclaimer</h3>
+        <p>WordMaster provides vocabulary learning content for educational purposes. While we strive for accuracy:</p>
+        <ul>
+            <li>We do not guarantee that all content is 100% accurate, complete, or up-to-date</li>
+            <li>Learning outcomes vary by individual effort and usage</li>
+            <li>We are not responsible for any exam failures, language proficiency test results, or employment decisions based on your use of the App</li>
+        </ul>
+
+        <h3>7.2 AI-Generated Content Disclaimer</h3>
+        <div class="warning-box">
+            <strong>⚠️ Important Clarification:</strong>
+            <p style="margin-top: 10px;">Despite feature names like "AI Roleplay" and "AI Story Fill," WordMaster currently uses <strong>pre-written templates and scenarios</strong> stored locally in the app. No live AI services (e.g., ChatGPT, Gemini) are used.</p>
+            <p><strong>If we integrate external AI services in the future:</strong></p>
+            <ul style="margin-top: 10px;">
+                <li>AI-generated content may contain errors, inaccuracies, or inappropriate material</li>
+                <li>We do not endorse or guarantee the quality of AI-generated responses</li>
+                <li>You should verify important information with authoritative sources</li>
+                <li>We will update these Terms and notify users before launching live AI features</li>
+            </ul>
+        </div>
+
+        <h2>8. Third-Party Services</h2>
+        <p>The App integrates with third-party services (Firebase, Google Sign-In, RevenueCat). Your use of these services is subject to their respective terms and privacy policies. We are not responsible for the actions, content, or policies of third parties.</p>
+
+        <h2>9. Disclaimers and Limitation of Liability</h2>
+
+        <h3>9.1 "AS IS" Disclaimer</h3>
+        <p>THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:</p>
+        <ul>
+            <li>Warranties of merchantability, fitness for a particular purpose, or non-infringement</li>
+            <li>Guarantees that the App will be uninterrupted, error-free, or secure</li>
+            <li>Guarantees of specific learning outcomes or language proficiency improvements</li>
+        </ul>
+
+        <h3>9.2 Limitation of Liability</h3>
+        <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, WORDMASTER SHALL NOT BE LIABLE FOR:</p>
+        <ul>
+            <li>Indirect, incidental, special, consequential, or punitive damages</li>
+            <li>Loss of profits, data, or use</li>
+            <li>Business interruption</li>
+            <li>Any damages arising from your use or inability to use the App</li>
+        </ul>
+        <p><strong>Total Liability Cap:</strong> Our total liability to you for all claims shall not exceed the amount you paid for the App in the 12 months preceding the claim (or $50 USD if you used the free version).</p>
+
+        <h3>9.3 Indemnification</h3>
+        <p>You agree to indemnify, defend, and hold harmless WordMaster from any claims, damages, or expenses (including legal fees) arising from:</p>
+        <ul>
+            <li>Your violation of these Terms</li>
+            <li>Your violation of any law or third-party rights</li>
+            <li>Your use of the App</li>
+        </ul>
+
+        <h2>10. Termination</h2>
+
+        <h3>10.1 By You</h3>
+        <p>You may stop using the App and delete your account at any time.</p>
+
+        <h3>10.2 By Us</h3>
+        <p>We reserve the right to suspend or terminate your account if:</p>
+        <ul>
+            <li>You violate these Terms</li>
+            <li>We suspect fraudulent or illegal activity</li>
+            <li>Your account has been inactive for 3+ years</li>
+            <li>We discontinue the App (with 30 days' notice)</li>
+        </ul>
+        <p><strong>Effect of Termination:</strong> Upon termination, your right to use the App will cease immediately. All provisions that should survive termination (e.g., disclaimers, limitation of liability) will continue to apply.</p>
+
+        <h2>11. Changes to the App and Terms</h2>
+
+        <h3>11.1 App Updates</h3>
+        <p>We may modify, suspend, or discontinue the App (or any part thereof) at any time without liability. We are not obligated to maintain or support the App indefinitely.</p>
+
+        <h3>11.2 Terms Updates</h3>
+        <p>We may update these Terms from time to time. When we do:</p>
+        <ul>
+            <li>We will update the "Last Updated" date at the top</li>
+            <li>We will notify you via in-app notification or email (for material changes)</li>
+            <li>Continued use of the App after changes constitutes acceptance of the new Terms</li>
+        </ul>
+        <p><strong>If you do not agree to the updated Terms, you must stop using the App and delete your account.</strong></p>
+
+        <h2>12. Governing Law and Dispute Resolution</h2>
+
+        <h3>12.1 Governing Law</h3>
+        <p>These Terms are governed by the laws of <strong>Turkey</strong>, without regard to conflict of law principles.</p>
+
+        <h3>12.2 Dispute Resolution</h3>
+        <p>Any disputes arising from these Terms or your use of the App shall be resolved through:</p>
+        <ol>
+            <li><strong>Informal Negotiation:</strong> Contact us at <a href="mailto:support@wordmasterapps.com">support@wordmasterapps.com</a> to attempt to resolve the issue</li>
+            <li><strong>Arbitration:</strong> If informal negotiation fails, disputes will be resolved through binding arbitration (except where prohibited by law)</li>
+            <li><strong>Small Claims Court:</strong> You may bring claims in small claims court if they qualify</li>
+        </ol>
+        <p><strong>Class Action Waiver:</strong> You agree to bring claims only in your individual capacity, not as part of a class action or representative proceeding.</p>
+
+        <h2>13. Miscellaneous</h2>
+
+        <h3>13.1 Entire Agreement</h3>
+        <p>These Terms, together with our Privacy Policy, constitute the entire agreement between you and WordMaster.</p>
+
+        <h3>13.2 Severability</h3>
+        <p>If any provision of these Terms is found to be unenforceable, the remaining provisions will continue in full force.</p>
+
+        <h3>13.3 No Waiver</h3>
+        <p>Our failure to enforce any provision of these Terms does not constitute a waiver of that provision.</p>
+
+        <h3>13.4 Assignment</h3>
+        <p>You may not assign or transfer your rights under these Terms. We may assign our rights to any successor or affiliate.</p>
+
+        <h3>13.5 Force Majeure</h3>
+        <p>We are not liable for delays or failures caused by events beyond our reasonable control (e.g., natural disasters, wars, pandemics, server outages).</p>
+
+        <h2>14. Contact Information</h2>
+        <p>If you have any questions, concerns, or feedback regarding these Terms of Service, please contact us:</p>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:support@wordmasterapps.com">support@wordmasterapps.com</a></li>
+            <li><strong>Website:</strong> <a href="https://mehmetercanoffical.github.io/wordmasterapps">mehmetercanoffical.github.io/wordmasterapps</a></li>
+        </ul>
+        <p><strong>Response Time:</strong> We aim to respond to all inquiries within 48 hours (weekdays).</p>
+
+        <div class="footer">
+            <p><strong>By using WordMaster, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.</strong></p>
+            <p style="margin-top: 20px;">© 2026 WordMaster. All rights reserved.</p>
+        </div>
     </div>
-
-    <h2>Acceptance of Terms</h2>
-    <p>By accessing or using WordMaster, you agree to be bound by these Terms of Service. If you do not agree, please do not use the app.</p>
-
-    <h2>Description of Service</h2>
-    <p>WordMaster is a vocabulary learning application that provides:</p>
-    <ul>
-        <li>Interactive vocabulary lessons and exercises</li>
-        <li>AI-powered learning features</li>
-        <li>Progress tracking and analytics</li>
-        <li>Gamification elements (streaks, badges, leaderboards)</li>
-        <li>Premium subscription features</li>
-    </ul>
-
-    <h2>User Accounts</h2>
-    <h3>Account Creation</h3>
-    <ul>
-        <li>You must be at least 13 years old</li>
-        <li>Provide accurate and complete information</li>
-        <li>Maintain the confidentiality of your account</li>
-        <li>You are responsible for all activities under your account</li>
-    </ul>
-
-    <h2>Acceptable Use</h2>
-    <p>You agree NOT to:</p>
-    <ul>
-        <li>Use the app for illegal purposes</li>
-        <li>Attempt unauthorized access to our systems</li>
-        <li>Reverse engineer or decompile the app</li>
-        <li>Upload malicious code or viruses</li>
-        <li>Harass or abuse other users</li>
-        <li>Violate any applicable laws</li>
-    </ul>
-
-    <h2>Intellectual Property</h2>
-    <p>The app and all content are owned by WordMaster or our licensors. You may not copy, modify, distribute, sell, or lease any part of our app without permission.</p>
-
-    <h2>Premium Subscriptions</h2>
-    <h3>Pricing and Billing</h3>
-    <ul>
-        <li>Subscriptions are billed automatically</li>
-        <li>Payment is processed through your app store account</li>
-        <li>Prices are subject to change with notice</li>
-        <li>All sales are final and non-refundable except as required by law</li>
-    </ul>
-
-    <h3>Cancellation</h3>
-    <ul>
-        <li>Cancel anytime through your app store account settings</li>
-        <li>Cancellation takes effect at the end of the current billing cycle</li>
-        <li>No refunds for partial billing periods</li>
-    </ul>
-
-    <h2>AI-Generated Content Disclaimer</h2>
-    <p>AI features may contain errors or inappropriate material. We do not guarantee the quality or accuracy of AI-generated content. You should verify information with authoritative sources.</p>
-
-    <h2>Disclaimers</h2>
-    <p>The app is provided "AS IS" without warranties. We do not guarantee that the app will be error-free, uninterrupted, or secure.</p>
-
-    <h2>Limitation of Liability</h2>
-    <p>To the maximum extent permitted by law, we are not liable for any indirect, incidental, special, or consequential damages.</p>
-
-    <h2>Changes to Terms</h2>
-    <p>We may modify these Terms at any time. Continued use of the app after changes constitutes acceptance of the new Terms.</p>
-
-    <h2>Contact Us</h2>
-    <p>If you have questions about these Terms:</p>
-    <p>Email: <a href="mailto:support@wordmasterapps.com">support@wordmasterapps.com</a></p>
-    <p>Website: <a href="https://wordmasterapps.github.io">wordmasterapps.github.io</a></p>
-
-    <hr style="margin: 60px 0;">
-    <p style="text-align: center; color: #888;">By using WordMaster, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.</p>
 </body>
 </html>
