@@ -58,17 +58,17 @@ git push -u origin main
 
 **Ana Sayfa:**
 ```
-https://wordmasterapps.github.io
+https://wordmaster.noveralabs.app
 ```
 
 **Privacy Policy:**
 ```
-https://wordmasterapps.github.io/privacy.html
+https://wordmaster.noveralabs.app/privacy.html
 ```
 
 **Terms of Service:**
 ```
-https://wordmasterapps.github.io/terms.html
+https://wordmaster.noveralabs.app/terms.html
 ```
 
 ---
@@ -76,7 +76,7 @@ https://wordmasterapps.github.io/terms.html
 ## ✅ Test Et
 
 ### Tarayıcıda:
-1. `https://wordmasterapps.github.io` aç
+1. `https://wordmaster.noveralabs.app` aç
 2. Landing page görünmeli
 3. Privacy ve Terms linklerini test et
 
@@ -111,13 +111,13 @@ git push origin main
 
 ## 🎨 Custom Domain Eklemek (İleride)
 
-Eğer ileride domain alırsan (örn: wordmasterapps.com):
+Custom domain:
 
 1. GitHub Pages → Settings → Custom domain
-2. `wordmasterapps.com` yaz
+2. `wordmaster.noveralabs.app` yaz
 3. Domain DNS ayarlarına:
 ```
-CNAME @ wordmasterapps.github.io
+CNAME wordmaster mehmetercanoffical.github.io
 ```
 
 ---
@@ -128,7 +128,7 @@ CNAME @ wordmasterapps.github.io
 
 **Şimdilik kullan:**
 ```
-support@wordmasterapps.com → Senin Gmail'in
+support@noveralabs.app → Senin Gmail'in
 ```
 
 **Nasıl?**
@@ -152,16 +152,16 @@ support@wordmasterapps.com → Senin Gmail'in
 
 ### Google Play Console:
 ```
-Privacy Policy URL: https://wordmasterapps.github.io/privacy.html
-Support Email: support@wordmasterapps.com
-Website: https://wordmasterapps.github.io
+Privacy Policy URL: https://wordmaster.noveralabs.app/privacy.html
+Support Email: support@noveralabs.app
+Website: https://wordmaster.noveralabs.app
 ```
 
 ### App Store Connect:
 ```
-Privacy Policy URL: https://wordmasterapps.github.io/privacy.html
-Support URL: https://wordmasterapps.github.io
-Marketing URL: https://wordmasterapps.github.io
+Privacy Policy URL: https://wordmaster.noveralabs.app/privacy.html
+Support URL: https://wordmaster.noveralabs.app
+Marketing URL: https://wordmaster.noveralabs.app
 ```
 
 ---
@@ -170,4 +170,4 @@ Marketing URL: https://wordmasterapps.github.io
 
 Artık profesyonel bir web siteniz var - **₺0 maliyetle!** 🚀
 
-**Sorular için:** support@wordmasterapps.com
+**Sorular için:** support@noveralabs.app

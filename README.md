@@ -4,7 +4,7 @@ Official website for WordMaster - English Vocabulary Learning App
 
 ## 🌐 Live Site
 
-**https://wordmasterapps.github.io**
+**https://wordmaster.noveralabs.app**
 
 ## 📄 Pages
 
@@ -22,16 +22,16 @@ This site is hosted on GitHub Pages.
 2. Push this code to the repository
 3. Enable GitHub Pages in repository settings
 4. Set source to `main` branch, `/` (root) folder
-5. Site will be live at `https://wordmasterapps.github.io`
+5. Site will be live at `https://wordmaster.noveralabs.app`
 
 ## 📱 App Links
 
 - **Google Play:** Coming Soon
-- **App Store:** Coming Soon
+- **App Store:** https://apps.apple.com/app/id6762263028
 
 ## 📧 Contact
 
-- **Email:** support@wordmasterapps.com
+- **Email:** support@noveralabs.app
 - **GitHub:** https://github.com/wordmasterapps
 
 ## 📝 License
